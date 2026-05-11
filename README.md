@@ -34,7 +34,7 @@ An intelligent AI-powered research assistant that searches the internet for the 
    
    Create a `.env` file in the project root directory:
    ```
-   AI_MODEL=gpt-4
+   AI_MODEL=gpt-5.4-mini
    AI_API_KEY=your_openai_api_key_here
    AI_ENDPOINT=https://api.openai.com/v1
    ```
