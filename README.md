@@ -37,7 +37,6 @@ An intelligent AI-powered research assistant that searches the internet for the 
    AI_MODEL=gpt-4
    AI_API_KEY=your_openai_api_key_here
    AI_ENDPOINT=https://api.openai.com/v1
-   TAVILY_API_KEY=your_tavily_api_key_here
    ```
 
 ### Running the Application
@@ -94,14 +93,6 @@ This runs the agent from the command line with a predefined example query.
 3. Click "Run Research"
 4. View the AI-generated research response
 
-### Command Line
-Modify the query in `main.py`:
-```python
-response = agent.invoke({
-    "messages":[("human", "your question here")]
-})
-```
-Then run: `python main.py`
 
 ## ⚙️ Configuration
 
