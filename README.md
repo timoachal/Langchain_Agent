@@ -49,7 +49,7 @@ This launches an interactive web interface where you can ask research questions 
 
 **Option 2: Command Line**
 ```bash
-python main.py
+uv run main.py
 ```
 This runs the agent from the command line with a predefined example query.
 
